@@ -29,8 +29,8 @@ will correctly match to the base colour map slot on a material called 'Mymesh.ma
 To use from within a python script:
 
     import build
-    build.MatBuild("SomeValidTexturepath")
+    build.MatBuild("SomeValidFolderPath")
 
 or call the script from the commandline:
 
-    python build.py "SomeValidTexturepath"
+    python build.py "SomeValidFolderPath"
