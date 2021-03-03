@@ -111,10 +111,10 @@ def MatBuild(Folder):
         f.write('\n')
         f.close()
 
-        print ('processed material file for %s /n' % Matname)
+        print ('processed material file for %s \n' % Matname)
         i = i + 1
 
-    print('processed %s files in materials directory /n' % i)
+    print('processed %s files in materials directory \n' % i)
     return()
 
 if __name__ == "__main__":
