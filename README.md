@@ -25,7 +25,7 @@ The material will be named as per 'materialname'. Texture inputs for the materia
 
 mapname can be longer and still match correctly as long as it includes the denoted string - eg:
 
-'Mymesh_Albedo.png' 
+    'Mymesh_Albedo.png' 
 
 will correctly match to the base colour map slot on a material called 'Mymesh.mat'
 
