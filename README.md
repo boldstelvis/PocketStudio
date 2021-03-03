@@ -12,14 +12,14 @@ the material will be named as per 'materialname'
 
 texture inputs for the material will be matched using 'mapname' as follows:
 
-'Alb' -> Base colour (RGB)
-'Emm' -> Emmission Colour (RGB)
-'Met' -> Metaliic (Value)
-'Nor' -> Normal (RGB encoded normals)
-'Ref' -> Reflectance (Value)
-'Rou' -> Roughness (Value)
-'SSS' -> SSSweight (Value)
-'Tra' -> Transmission (RGB)
+* 'Alb' -> Base colour (RGB)
+* 'Emm' -> Emmission Colour (RGB)
+* 'Met' -> Metaliic (Value)
+* 'Nor' -> Normal (RGB encoded normals)
+* 'Ref' -> Reflectance (Value)
+* 'Rou' -> Roughness (Value)
+* 'SSS' -> SSSweight (Value)
+* 'Tra' -> Transmission (RGB)
 
 matname can be longer and still match correctly as long as it includes the denoted string - eg:
 
