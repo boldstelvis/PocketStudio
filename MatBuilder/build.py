@@ -3,6 +3,8 @@ import sys
 
 def MatBuild(Folder):
 
+    print ('\n Processing textures \n')
+
     Meshes = []
     Base = {}
     Emission = {}
@@ -50,7 +52,7 @@ def MatBuild(Folder):
     try:
         os.mkdir(Matpath)
     except:
-        print ('%s already exists' % Matpath)
+        print ('%s already exists \n' % Matpath)
 
     # write files into subfolder
     i = 0
@@ -111,7 +113,7 @@ def MatBuild(Folder):
         f.write('\n')
         f.close()
 
-        print ('processed material file for %s \n' % Matname)
+        print ('Created material file for %s' % Matname)
         i = i + 1
 
     print('processed %s files in materials directory \n' % i)
